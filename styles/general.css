@@ -1,0 +1,563 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(207, 207, 207);
+
+    main {
+        width: 1240px;
+        padding: 0px 100px;
+
+        background-color: white;
+    }
+
+    main.home {
+        header {
+            padding: 22px 0px;
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                width: 159px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: var(--col-logo);
+                }
+            }
+
+            .menu {
+                width: 458px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    font-size: 16px;
+                    color: var(--col-blk-3);
+                    cursor: pointer;
+                }
+            }
+
+            .user {
+                button {
+                    font-size: 15px;
+                    padding: 10px 19px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: 1px solid var(--col-bl);
+
+                    &.login {
+                        background-color: var(--col-bl);
+                        color: var(--col-wh);
+                    }
+                    &.regis {
+                        background-color: var(--col-wh);
+                        color: var(--col-bl);
+                    }
+                }
+            }
+        }
+
+        .main-home{
+
+            .banner-principal {
+                width: 100%;
+                height: 500px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+                border-radius: 10px;
+                
+                background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../img/fondo-home.jpg);
+                background-size: cover;
+                background-position: center -75px;
+
+                color: var(--col-wh);
+
+                h1 {
+                    font-size: 32px;
+                }
+
+                span {
+                    width: 650px;
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+
+            .search-box {
+                width: 100%;
+
+                display: flex;
+                justify-content: center;
+
+                > div {
+                    width: 1010px;
+
+                    margin-top: -32px;
+                    padding: 10px 12px;
+
+                    border-radius: 8px;
+
+                    background-color: var(--col-wh);
+
+                    box-shadow: 0px 4px 6px 4px #00000021;
+                    
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+
+                        margin-right: -48px;
+                        margin-left: 8px;
+
+                        z-index: 2;
+                    }
+
+                    input {
+                        height: 41px;
+
+                        padding: 0px 34px;
+
+                        border: none;
+                        background-color: var(--col-gr-1);
+
+                        &.where {
+                            width: 196px;
+                        }
+                        &.when {
+                            width: 96px;
+                        }
+                        &.who {
+                            width: 148px;
+                        }
+
+                        z-index: 1;
+                    }
+
+                    button {
+                        padding: 0px 52px;
+                        height: 43px;
+
+                        border: none;
+                        border-radius: 6px;
+
+                        font-size: 15px;
+
+                        background-color: var(--col-bl);
+                        color: var(--col-wh);
+
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            .info-covid {
+                height: 32px;
+
+                margin: 3rem 0rem;
+                padding: 20px;
+
+                border-radius: 1rem;
+
+                background-color: var(--col-ye);
+                color: var(--col-blk-3);
+
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 32px;
+                    margin: 0px 1rem 0px 1rem;
+                }
+
+                p {
+                    width: 476px;
+                    height: 22px;
+                    
+                    font-size: 16px;
+
+                    a {
+                        color: rgb(0, 89, 255);
+                    }
+                }
+
+            }
+
+            .dream-vacation {
+                
+                margin: 5rem 0rem;
+
+
+                h3 {
+                    width: 504px;
+                    height: 32px;
+
+                    font-size: 28px;
+
+                    color: var(--col-titulos);
+                }
+
+                > p {
+                    width: 610px;
+                    height: 44px;
+
+                    padding: 1rem 0rem 2rem 0rem;
+
+                    font-size: 16px;
+
+                    color: var(--col-blk-3);
+                }
+
+                .vacation-offers {
+                    display: flex;
+                    justify-content: space-between;
+    
+                    div {
+    
+                        img {
+                            width: 295px;
+                            height: 220px;
+
+                            border-radius: 8px;
+                        }
+                        p {
+                            padding: 1rem 0rem .2rem 0rem;
+                            font-size: 20px;
+                            font-weight: 500;
+
+                            color: var(--col-titulos);
+                        }
+                        span {
+                            font-size: 14px;
+
+                            color: var(--col-titulos);
+                        }
+                    }
+                }
+            }
+
+            .inspiration-next-trip {
+
+                h3 {
+                    width: 504px;
+                    height: 32px;
+
+                    padding: 1rem 0rem 2rem 0rem;
+
+                    font-size: 28px;
+                    color: var(--col-titulos);
+                }
+
+                .inspiration-items {
+                    display: flex;
+                    justify-content: space-between;
+
+                    color: white;
+
+                    .inspiration-item {
+                        width: 360px;
+                        height: 240px;
+
+                        padding: 20px;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+
+                        border-radius: 1rem;
+                        p {
+                            padding: 1rem 0rem .2rem 0rem;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .sydney {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url("../../img/inspi/sydney.jpg");
+                        background-size: cover;
+                    }
+                    .vegan {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url("../../img/inspi/vegan.jpg");
+                        background-size: cover;
+                    }
+                    .covid {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url("../../img/inspi/covid.jpg");
+                        background-size: cover;
+                    }
+                }
+            }
+
+            .popular-hotels {
+
+                h3 {
+                    font-size: 28px;
+                    padding: 3rem 0rem 2rem 0rem;
+                }
+
+                .hotel-list {
+                    display: flex;
+                    justify-content: space-between;
+
+                    div {
+
+                        img {
+                            width: 295px;
+                            height: 300px;
+                            border-radius: 8px;
+
+                            object-fit: cover;
+                        }
+                        p {
+                            padding: 1rem 0rem .2rem 0rem;
+                            font-size: 20px;
+                        }
+                        span {
+                            font-size: 14px;
+                            color: var(--col-titulos);
+                        }
+                    }
+                }
+            }
+
+            .banner-mobile {
+                height: 152px;
+
+                margin: 3rem 0rem;
+                padding: 64px;
+                
+                background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0,0,0,0)),  url("../../img/foto-costa.jpg");
+                background-size: cover;
+                background-position: center;
+
+                display: flex;
+
+                border-radius: 8px;
+
+                overflow: hidden;
+
+                div {
+                    width: 50%;
+                }
+
+                .conte {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+        
+                    p {
+                        padding: 1rem 0rem 2rem 0rem;
+        
+                        font-size: 28px;
+                        font-weight: 600;
+                        color: white;
+                    }
+        
+                    button {
+                        width: 182px;
+                        padding: .7rem 1rem;
+                        
+                        background-color: var(--col-bl);
+                        color: white;
+
+                        font-size: 15px;
+
+                        border: none;
+                        border-radius: 6px;
+                    }
+                }
+
+                .img-banner {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 730px;
+
+                        margin: 3rem 4rem 0rem 0rem;
+                        transform: rotate(-15deg);
+                    }
+                }
+
+            }
+
+            .more {
+                height: 70px;
+
+                margin: 5rem 0rem;
+
+                display: flex;
+                justify-content: center;
+
+                
+                .more-info {
+                    width: 820px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        font-size: 28px;
+                        font-weight: 900;
+                        margin-bottom: 1rem;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        color: var(--col-bl);
+                    }
+                }
+            }
+
+        }
+
+        footer {
+
+            .footer-container {
+                display: flex;
+                justify-content: space-between;
+
+                div {
+                    width: 225px;
+
+                    padding: 0px 20px;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    &.logo-footer {
+
+                        > div {
+                            display: flex;
+                            flex-direction: row;
+    
+                            img {
+                                width: 24px;
+                                height: 24px;
+                                margin: 0px 8px 0px 0px;
+                            }
+                            p {
+                                font-size: 18px;
+                                color: var(--col-logo);
+                            }
+                        }
+                        span {
+                            padding-left: 32px;
+                            color: var(--col-gr-2);
+                            font-size: 14px;
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        padding-bottom: 1rem;
+                    }
+
+                    span, span a {
+                        padding: .5rem 0rem;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: var(--col-gr-2);
+                    }
+
+                    .bl a{
+                        color: var(--col-bl) !important;
+                    }
+                }
+            }
+        }
+
+        .footer-bottom {
+            margin: 2rem -100px 0rem -100px;
+            padding: 1rem;
+            text-align: center;
+            background-color: var(--col-gr-1);
+            color: var(--col-gr-2);
+            font-size: 14px;
+        }
+    }
+
+    main.login {
+        header {
+            padding: 22px 0px;
+
+           .logo {
+            display: flex;
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+           } 
+        }
+        .main-login {
+            height: 902px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            > div {
+                width: 401px;
+
+                h3 {
+                    font-size: 28px;
+                    font-weight: 600;
+
+                    text-align: center;
+
+                    color: var(--col-titulos);
+                }
+
+                form {
+                    div {
+                        display: flex;
+                        flex-direction: column;
+
+                        label {
+                            font-size: 14px;
+                            font-weight: 600;
+                            padding: 10px 0px;
+                        }
+                        input {
+                            height: 20px;
+                            padding: 10px 12px;
+                            margin-bottom: 1rem;
+
+                            border: none;
+                            border-radius: 4px;
+
+                            background-color: var(--col-gr-1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
