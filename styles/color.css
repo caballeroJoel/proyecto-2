@@ -1,5 +1,8 @@
 :root {
     --col-bl: #2F80ED;
+    --col-gn: #219653;
+    --col-rd: #EB5757;
+    --col-or: #F2994A;
     --col-ye: #FCEFCA;
     --col-wh: #FFFFFF;
 
@@ -9,6 +12,7 @@
     --col-gr-2: #4F4F4F;
     --col-gr-3: #BDBDBD;
     --col-gr-4: #E0E0E0;
+    --col-gr-5: #828282;
 
     --col-logo: #1B1F2D;
     --col-titulos: #181818;
