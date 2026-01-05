@@ -80,7 +80,7 @@ body.body-home {
             justify-content: center;
             flex-direction: column;
 
-            color: var(--col-wh);
+            color: var(--col-wh-1);
 
             h1 {
                 font-size: 40px;

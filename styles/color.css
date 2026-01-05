@@ -1,10 +1,16 @@
 :root {
     --col-bl: #2F80ED;
+    --col-bl-2: #4796FF;
+    --col-bl-3: #2366BF;
+
+
     --col-gn: #219653;
     --col-rd: #EB5757;
     --col-or: #F2994A;
+    --col-or-2: #FFD723;
     --col-ye: #FCEFCA;
-    --col-wh: #FFFFFF;
+    --col-wh-1: #FFFFFF;
+    --col-wh-2: #F4F4F4;
 
     --col-blk-3: #333333;
 

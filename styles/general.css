@@ -64,10 +64,10 @@ body {
                     &.login {
                         margin-left: 6px;
                         background-color: var(--col-bl);
-                        color: var(--col-wh);
+                        color: var(--col-wh-1);
                     }
                     &.regis {
-                        background-color: var(--col-wh);
+                        background-color: var(--col-wh-1);
                         color: var(--col-bl);
                     }
                 }
@@ -109,7 +109,7 @@ body {
                 background-size: cover;
                 background-position: center -75px;
 
-                color: var(--col-wh);
+                color: var(--col-wh-1);
 
                 h1 {
                     font-size: 32px;
@@ -136,7 +136,7 @@ body {
 
                     border-radius: 8px;
 
-                    background-color: var(--col-wh);
+                    background-color: var(--col-wh-1);
 
                     box-shadow: 0px 4px 6px 4px #00000021;
                     
@@ -185,7 +185,7 @@ body {
                         font-size: 15px;
 
                         background-color: var(--col-bl);
-                        color: var(--col-wh);
+                        color: var(--col-wh-1);
 
                         cursor: pointer;
                     }
@@ -588,7 +588,7 @@ body {
                     font-weight: 500;
 
                     background-color: var(--col-bl);
-                    color: var(--col-wh);
+                    color: var(--col-wh-1);
 
                     cursor: pointer;
                 }
@@ -679,7 +679,7 @@ body {
                             font-weight: 500;
 
                             background-color: var(--col-bl);
-                            color: var(--col-wh);
+                            color: var(--col-wh-1);
 
                             cursor: pointer;
                         }
@@ -730,14 +730,14 @@ body {
                         }
 
                         &.google {
-                            background-color: var(--col-wh);
+                            background-color: var(--col-wh-1);
                             color: var(--col-gr-2);
                         }
 
                         &.facebook {
                             border: none;
                             background-color: var(--col-facebook);
-                            color: var(--col-wh);
+                            color: var(--col-wh-1);
                         }
                     }
                 }
@@ -841,7 +841,7 @@ body {
                             font-weight: 500;
 
                             background-color: var(--col-bl);
-                            color: var(--col-wh);
+                            color: var(--col-wh-1);
 
                             cursor: pointer;
                         }
@@ -892,14 +892,14 @@ body {
                         }
 
                         &.google {
-                            background-color: var(--col-wh);
+                            background-color: var(--col-wh-1);
                             color: var(--col-gr-2);
                         }
 
                         &.facebook {
                             border: none;
                             background-color: var(--col-facebook);
-                            color: var(--col-wh);
+                            color: var(--col-wh-1);
                         }
                     }
                 }
@@ -965,7 +965,7 @@ body {
     
                     p {
                         font-size: 18px;
-                        color: var(--col-wh);
+                        color: var(--col-wh-1);
                     }
                 }
     
@@ -977,7 +977,7 @@ body {
     
                     a {
                         font-size: 16px;
-                        color: var(--col-wh);
+                        color: var(--col-wh-1);
                         cursor: pointer;
                     }
                 }
@@ -996,10 +996,10 @@ body {
                         &.login {
                             margin-left: 6px;
                             background-color: var(--col-bl);
-                            color: var(--col-wh);
+                            color: var(--col-wh-1);
                         }
                         &.regis {
-                            background-color: var(--col-wh);
+                            background-color: var(--col-wh-1);
                             color: var(--col-bl);
                         }
                     }
@@ -1041,7 +1041,7 @@ body {
 
                     border-radius: 8px;
 
-                    background-color: var(--col-wh);
+                    background-color: var(--col-wh-1);
 
                     box-shadow: 0px 4px 6px 4px #00000021;
                     
@@ -1090,7 +1090,7 @@ body {
                         font-size: 15px;
 
                         background-color: var(--col-bl);
-                        color: var(--col-wh);
+                        color: var(--col-wh-1);
 
                         cursor: pointer;
                     }
@@ -1153,7 +1153,7 @@ body {
                                 border: 1px solid var(--col-gr-3);
                                 border-radius: 6px;
     
-                                background-color: var(--col-wh);
+                                background-color: var(--col-wh-1);
 
                                 z-index: 1;
                             }
@@ -1417,7 +1417,7 @@ body {
                                         font-weight: 500;
     
                                         background-color: var(--col-bl);
-                                        color: var(--col-wh);
+                                        color: var(--col-wh-1);
     
                                         cursor: pointer;
                                     }
@@ -1606,6 +1606,568 @@ body {
             background-color: var(--col-gr-1);
             color: var(--col-gr-2);
             font-size: 14px;
+        }
+    }
+
+    main.product {
+        header {
+            padding: 14px 0px;
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                width: 159px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: var(--col-logo);
+                }
+            }
+
+            .menu {
+                width: 458px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    font-size: 16px;
+                    color: var(--col-blk-3);
+                    cursor: pointer;
+                }
+            }
+
+            .user {
+                display: flex;
+                align-items: center;
+
+                button {
+                    font-size: 15px;
+                    padding: 10px 19px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: 1px solid var(--col-bl);
+
+                    &.login {
+                        margin-left: 6px;
+                        background-color: var(--col-bl);
+                        color: var(--col-wh-1);
+                    }
+                    &.regis {
+                        background-color: var(--col-wh-1);
+                        color: var(--col-bl);
+                    }
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+
+                    margin-left: 16px;
+                    cursor: pointer;
+                }
+                
+                .profile {
+                    background-image: url(../img/profile.png);
+                    background-size: cover;
+                    background-position: center;
+
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .main-product {
+            
+            .img-products {
+                height: 452px;
+                width: 1440px;
+                padding: 24px 0px;
+                margin-left: -100px;
+
+                display: flex;
+                justify-content: center;
+                
+                background: linear-gradient(0deg, var(--col-wh-1) 50%, var(--col-wh-2) 100%);
+                
+                > div {
+                    width: 1240px;
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    div {
+    
+                        img {
+                            border-radius: 5px;
+                        }
+    
+                        &:first-child {
+                            img {
+                                width: 820px;
+                                height: 452px;
+                            }
+                        }
+                        &:nth-child(2) {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+    
+                            img {
+                                width: 400px;
+                                height: 218px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .mini-menu {
+                width: 1440px;
+                margin-left: -100px;
+                padding: 13px 0px;
+                
+                display: flex;
+                justify-content: center;
+
+                border-bottom: 1px solid var(--col-gr-4);
+
+                div {
+                    width: 1240px;
+
+                    span {
+                    padding: 11px 14px;
+    
+                        font-size: 16px;
+                        font-weight: 400;
+    
+                        &.selec {
+                            border-bottom: 3px solid var(--col-bl);
+                        }
+    
+                    }
+                }
+            }
+
+            .prod-content {
+                width: 1440px;
+                margin-left: -100px;
+
+                display: flex;
+                justify-content: center;
+
+                background-color: var(--col-wh-2);
+
+                > div {
+                    width: 1240px;
+                    padding: 32px 0px;
+
+                    .carac {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .name-prod {
+                            .stars-rating {
+                                display: flex;
+                                margin: 10px 0px;
+    
+                                img {
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                            }
+
+                            .loc {
+                                display: flex;
+                                align-items: center;
+
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 4px;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+
+                                    color: var(--col-blk-3);
+                                }
+                            }
+                        }
+
+                        .overview {
+                            width: 760px;
+                            height: 458px;
+                            margin-top: 24px;
+                            padding: 25px;
+
+                            background-color: var(--col-wh-1);
+                            border-radius: 6px;
+
+                            p {
+                                font-size: 18px;
+                                font-weight: 500;
+                                margin-bottom: 21px;
+                            }
+
+                            hr {
+                                width: 808px;
+                                margin: 30px 0px 30px -25px;
+
+                                border: 1px solid var(--col-gr-4);
+                                background-color: var(--col-gr-4);
+                            }
+                            
+                            .overview-span {
+                                width: 704px;
+                                color: var(--col-gr-2);
+                            }
+
+                            .facitities {
+                                display: grid;
+                                grid-template-columns: 250px 250px;
+
+                                div {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 10px;
+
+                                    img {
+                                        width: 22px;
+                                        height: 22px;
+                                    }
+
+                                    span {
+                                        margin-left: 5px;
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        color: var(--col-gr-2);
+                                    }
+                                }
+                            }
+                        }
+
+                        .area {
+
+                            img {
+                                width: 400px;
+                                height: 240px;
+                                border-radius: 5px;
+                            }
+
+                            p {
+                                padding: 12px 0px 20px;
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+
+                            .explore {
+                                display: flex;
+                                flex-direction: column;
+
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                span {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: var(--col-gr-2);
+                                    margin-left: 5px;
+                                }
+
+                                > div {
+                                    width: 400px;
+                                    padding: 5px 0px;
+
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+
+                                    > div {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .rooms {
+
+                        h3 {
+                            padding: 26px 0px;
+                            font-size: 24px;
+                            font-weight: 600;
+                        }
+
+                        .reserva {
+                            height: 40px;
+                            padding: 12px;
+                            margin-bottom: 18px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            background-color: var(--col-wh-1);
+                            border-radius: 6px;
+
+                            div {
+                                display: flex;
+                                flex-direction: column;
+
+                                img {
+                                    width: 20px;
+                                    margin: -32px 0px 0px 10px;
+                                }
+                            }
+
+                            input {
+                                width: 270px;
+                                padding: 13px 13px 13px 39px;
+                                background-color: var(--col-gr-1);
+                                /* background-color: var(--col-gn); */
+                                border: 0;
+                                border-radius: 4px;
+
+                                color: var(--col-blk-3);
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+
+                            button {
+                                width: 220px;
+                                padding: 13px;
+
+                                background-color: var(--col-bl);
+                                border: 0;
+                                border-radius: 6px;
+
+                                color: var(--col-wh-1);
+                                font-size: 15px;
+                                font-weight: 500;
+                            }
+
+                        }
+
+                        .results {
+                            display: flex;
+                            justify-content: space-between;
+
+                            > div {
+
+                                &.discount {
+                                    width: 348px;
+                                    height: 288px;
+                                    padding: 26px;
+                                    display: grid;
+                                    grid-template-columns: 180px 148px;
+
+                                    background: linear-gradient(180deg, var(--col-bl-2) 50%, var(--col-bl-3) 100%);
+                                    color: var(--col-wh-1);
+                                    border-radius: 6px;
+
+                                    > div {
+
+                                        img.person {
+                                            margin-left: -50px;
+                                        }
+
+                                        > div {
+                                            margin: 32px 0px 32px 0px;
+                                            display: flex;
+                                            
+                                            img {
+                                                width: 24px;
+                                                margin-right: 6px;
+                                            }
+                                            span {
+                                                font-size: 18px;
+                                                font-weight: 500px;
+                                            }
+                                        }
+
+                                        p {
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                            span {
+                                                color: var(--col-or-2);
+                                            }
+                                        }
+                                    }
+                                }
+
+                                &.dorm {
+                                    width: 400px;
+
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    background-color: var(--col-wh-1);
+                                    border-radius: 6px;
+
+                                    img {
+                                        width: 400px;
+                                        height: 200px;
+                                        border-radius: 6px 6px 0px 0px;
+                                    }
+
+                                    > div {
+                                        padding: 18px;
+                                        h4 {
+                                            margin-bottom: 10px;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                        > div {
+                                            div {
+                                                display: flex;
+                                                padding: 8px 0px;
+
+                                                img {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                    margin-right: 8px;
+                                                }
+                                                span {
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    color: var(--col-gr-2);
+                                                }
+                                            }
+                                        }
+                                    }
+                                    button {
+                                        width: 360px;
+                                        margin-top: 12px;
+                                        padding: 12px 18px;
+
+                                        background-color: var(--col-bl);
+                                        color: var(--col-wh-1);
+
+                                        font-size: 15px;
+                                        font-weight: 500;
+
+                                        border: 0;
+                                        border-radius: 6px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .info-covid {
+                            height: 32px;
+
+                            margin: 128px 0px 32px 0px;
+                            padding: 20px;
+
+                            border-radius: 1rem;
+
+                            background-color: var(--col-ye);
+                            color: var(--col-blk-3);
+
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                width: 32px;
+                                margin: 0px 1rem 0px 1rem;
+                            }
+
+                            p {
+                                width: 476px;
+                                height: 22px;
+                                
+                                font-size: 16px;
+
+                                a {
+                                    color: rgb(0, 89, 255);
+                                }
+                            }
+
+                        }
+
+                        footer {
+                            .footer-container {
+                                display: flex;
+                                justify-content: space-between;
+
+                                div {
+                                    width: 225px;
+
+                                    padding: 0px 20px;
+
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    &.logo-footer {
+
+                                        > div {
+                                            display: flex;
+                                            flex-direction: row;
+                    
+                                            img {
+                                                width: 24px;
+                                                height: 24px;
+                                                margin: 0px 8px 0px 0px;
+                                            }
+                                            p {
+                                                font-size: 18px;
+                                                color: var(--col-logo);
+                                            }
+                                        }
+                                        span {
+                                            padding-left: 32px;
+                                            color: var(--col-gr-2);
+                                            font-size: 14px;
+                                        }
+                                    }
+
+                                    p {
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        padding-bottom: 1rem;
+                                    }
+
+                                    span, span a {
+                                        padding: .5rem 0rem;
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: var(--col-gr-2);
+                                    }
+
+                                    .bl a{
+                                        color: var(--col-bl) !important;
+                                    }
+                                }
+                            }
+                        }
+
+                        .footer-bottom {
+                            margin: 2rem -100px 0rem -100px;
+                            padding: 1rem;
+                            text-align: center;
+                            background-color: var(--col-gr-1);
+                            color: var(--col-gr-2);
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
