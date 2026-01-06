@@ -2523,4 +2523,322 @@ body {
             }
         }
     }
+
+    main.reservation {
+        header {
+            padding: 22px 0px;
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                width: 159px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: var(--col-logo);
+                }
+            }
+
+            .user {
+                display: flex;
+                align-items: center;
+
+                button {
+                    font-size: 15px;
+                    padding: 10px 19px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: 1px solid var(--col-bl);
+
+                    &.login {
+                        margin-left: 6px;
+                        background-color: var(--col-bl);
+                        color: var(--col-wh-1);
+                    }
+                    &.regis {
+                        background-color: var(--col-wh-1);
+                        color: var(--col-bl);
+                    }
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+
+                    margin-left: 16px;
+                    cursor: pointer;
+                }
+                
+                .profile {
+                    background-image: url(../img/profile.png);
+                    background-size: cover;
+                    background-position: center;
+
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .main-reservation {
+            width: 1440px;
+            margin-left: -100px;
+            background-color: var(--col-wh-2);
+            
+            > div {
+                margin-left: 100px;
+
+                h1 {
+                    padding: 40px 0px 24px;
+                }
+
+                .info-covid {
+                    width: 1200px;
+                    height: 32px;
+
+                    margin: 0rem 0rem 2rem;
+                    padding: 20px;
+
+                    border-radius: 1rem;
+
+                    background-color: var(--col-ye);
+                    color: var(--col-blk-3);
+
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 32px;
+                        margin: 0px 1rem 0px 1rem;
+                    }
+
+                    p {
+                        width: 476px;
+                        height: 22px;
+                        
+                        font-size: 16px;
+
+                        a {
+                            color: rgb(0, 89, 255);
+                        }
+                    }
+
+                }
+
+                .content {
+                    width: 1240px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .forms {
+                        width: 810px;
+
+                        
+                        .options {
+                            width: 810px;
+
+                            background-color: var(--col-wh-1);
+
+                            .title {
+                                padding: 16px;
+                                display: flex;
+                                align-items: center;
+
+                                background-color: var(--col-bl);
+                                color: var(--col-wh-1);
+                                border-radius: 6px 6px 0px 0px;
+
+                                img {
+                                    padding-right: 16px;
+                                }
+                                
+                                h4 {
+                                    padding-right: 16px;
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                }
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+
+                    .resumen {
+                        width: 400px;
+                        height: 400px;
+
+                        background-color: var(--col-wh-1);
+                        border-radius: 6px;
+                        
+                        div.img {
+                            width: 400px;
+                            height: 180px;
+                            
+                            background-image: url(./../img/products/entrada_casa.png);
+                            background-size: cover;
+                            background-position: center;
+
+                            border-radius: 6px 6px 0px 0px;
+                        }
+
+                        .resm {
+                            height: 186px;
+                            padding: 18px;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            p {
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+                            
+                            .stars-rating {
+                                display: flex;
+                                margin: 10px 0px;
+    
+                                img {
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                            }
+                            
+                            .prop {
+                                display: flex;
+                                flex-direction: column;
+                                
+                                span {
+                                    margin: 6px 0px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: var(--col-gr-2);
+
+                                    &.marc {
+                                        color: var(--col-rd);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .price_det {
+                        margin-top: 32px;
+                        width: 400px;
+                        height: 334px;
+
+                        background-color: var(--col-wh-1);
+                        border: 1px solid var(--col-gr-4);
+                        border-radius: 6px;
+                        
+                        .tit {
+                            border-radius: 6px 6px 0px 0px;
+                            padding: 18px;
+
+                            font-size: 16px;
+                            font-weight: 500;
+                            background-color: #85E0AB;
+                        }
+                        .details {
+                            padding: 18px;
+
+                            .prices {
+                                div {
+                                    padding: 8px 0px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+
+                                span {
+                                    width: max-content;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: var(--col-gr-2);
+                                }
+                            }
+                            hr {
+                                width: 400px;
+                                margin: 18px 0px 0px -18px;
+                                border: 1px solid var(--col-gr-4);
+                            }
+                            .total {
+                                padding: 22px 0px 18px;
+
+                                > span {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: var(--col-bl);
+                                }
+
+                                .precio_total {
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    p {
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        
+                                        &.precio {
+                                            font-size: 20px;
+                                        }
+                                    }
+                                }
+
+                                .coupon {
+                                    margin-top: 24px;
+                                    span {
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                    }
+                                    div {
+                                        margin-top: 6px;
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        input {
+                                            height: 44px;
+                                        }
+
+                                        input[type="text"] {
+                                            width: 204px;
+                                            padding: 0px 11px;
+
+                                            background-color: var(--col-wh-2);
+                                            border: 0;
+                                            border-radius: 4px;
+                                        }
+                                        input[type="submit"] {
+                                            padding: 0px 12px;
+                                            width: 132px;
+
+                                            background-color: var(--col-blk-3);
+                                            color: var(--col-wh-1);
+                                            border: 0;
+                                            border-radius: 6px;
+
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
