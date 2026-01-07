@@ -2644,6 +2644,9 @@ body {
                         
                         .options {
                             width: 810px;
+                            margin-bottom: 32px;
+
+                            border-radius: 6px;
 
                             background-color: var(--col-wh-1);
 
@@ -2668,6 +2671,246 @@ body {
                                 span {
                                     font-size: 16px;
                                     font-weight: 500;
+                                }
+                            }
+                            .cont {
+                                span {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    margin-bottom: 6px;
+
+                                    color: var(--col-titulos);
+                                }
+                                input {
+                                    border: 0;
+                                    border-radius: 4px;
+                                    background-color: var(--col-wh-2);
+                                }
+                            }
+                        }
+
+                        .room {
+                            height: 328px;
+                            .cont {
+                                padding: 26px;
+                                .names {
+                                    display: flex;
+                                    div {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-right: 16px; 
+
+                                        input {
+                                            width: 212px;
+                                            padding: 14px;
+                                        }
+                                    }
+                                }
+
+                                .phone {
+                                    margin-top: 32px;
+
+                                    > div {
+                                        display: flex;
+                                        div {
+                                            display: flex;
+                                            flex-direction: column;
+    
+                                            img {
+                                                width: 24px;
+                                                height: 24px;
+                                                margin: 16px 0px -35px 8px;
+    
+                                                z-index: 1;
+                                            }
+        
+                                            select {
+                                                width: 150px;
+                                                padding: 13px 13px 13px 36px;
+            
+                                                background-color: var(--col-wh-2);
+                                                border: 0;
+                                                border-radius: 4px;
+    
+                                                z-index: 0;
+                                            }
+
+                                            input {
+                                                width: 338px;
+                                                padding: 14px;
+                                                margin: 5px 16px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .alerts {
+                                    margin-top: 24px;
+
+                                    display: flex;
+                                    align-items: center;
+
+                                    input {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin-right: 12px;
+
+                                        border-radius: 5px;
+                                    }
+                                    label {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: var(--col-blk-3);
+                                    }
+                                }
+                            } 
+                        }
+
+                        .payments {
+                            height: 576px;
+
+                            .mini_menu {
+                                height: 48px;
+                                margin-left: 26px;
+                                
+                                display: flex;
+                                align-items: flex-end;
+
+                                border-bottom: 1px solid var(--col-gr-4);
+
+                                div {
+                                    padding: 14px;
+
+                                    span {
+                                       font-size: 14px;
+                                       font-weight: 400; 
+                                       color: var(--col-blk-3);
+                                    }
+                                    &.selected {
+                                        border-bottom: 3px solid var(--col-bl);
+                                    }
+                                }
+                            }
+
+                            .card {
+                                padding: 26px;
+                                display: flex;
+                                flex-direction: column;
+
+                                span {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    margin-bottom: 6px;
+                                }
+
+                                .types {
+                                    display: flex;
+
+                                    div {
+                                        width: 60px;
+                                        height: 40px;
+                                        margin-right: 6px;
+
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        border-radius: 5px;
+                                        background-color: var(--col-wh-2);
+                                    }
+                                }
+                            }
+
+                            .pay {
+                                display: flex;
+                                flex-direction: column;
+                                padding: 0px 26px;
+
+                                input {
+                                    width: 472px;
+                                    padding: 14px;
+                                    margin-bottom: 18px;
+                                }
+
+                                .date {
+                                    display: flex;
+
+                                    select {
+                                        width: 122px;
+                                        height: 44px;
+                                        margin-right: 12px;
+
+                                        border: 0;
+                                        border-radius: 4px;
+                                        background-color: var(--col-wh-2);
+                                    }
+                                }
+
+                                .codes {
+                                    display: flex;
+                                    margin-top: 18px;
+
+                                    div {
+                                        display: flex;
+                                        flex-direction: column;
+                                        input {
+                                            width: 240px;
+                                            margin-right: 12px;
+                                        }
+                                    };
+                                }
+                            }
+                        }
+
+                        .info {
+                            .title {
+                                background-color: var(--col-ye-2);
+                                color: var(--col-blk-3);
+                            }
+                            .cont {
+                                padding: 18px;
+                                display: flex;
+                                flex-direction: column;
+
+                                ol {
+                                    margin-left: 20px;
+
+                                    li {
+                                        width: 762px;
+                                        padding: 6px 0px;
+
+                                        font-weight: 400;
+                                    }
+                                }
+                                span {
+                                    a {
+                                        color: var(--col-bl);
+                                    }
+                                }
+                                button {
+                                    width: 160px;
+                                    margin: 24px 0px;
+                                    padding: 14px 0px;
+
+                                    background-color: var(--col-bl);
+                                    color: var(--col-wh-1);
+                                    border: 0;
+                                    border-radius: 6px;
+
+                                    cursor: pointer;
+                                }
+
+                                > div {
+                                    display: flex;
+                                    align-items: center;
+
+                                    img {
+                                        margin-right: 6px;
+                                    }
+
+                                    span {
+                                        margin: 0;
+                                    }
                                 }
                             }
                         }
